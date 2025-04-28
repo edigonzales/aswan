@@ -4,6 +4,8 @@ project:
 website:
   title: "Aswan 2025"
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
@@ -11,8 +13,7 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo
+    theme: cosmo
     css: styles.css
     toc: true
 
