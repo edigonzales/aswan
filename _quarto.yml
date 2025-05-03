@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Aswan"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: hotel.qmd
+        text: Hotel
+      - href: food.qmd
+        text: Food
+      - href: healthcare.qmd
+        text: Healthcare
+      - href: cultural.qmd
+        text: Cultural
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+
+

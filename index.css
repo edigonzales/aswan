@@ -13,6 +13,8 @@ font-weight: normal;
 body {
 /*background: var(--background);*/
 background-image: url('/images/IMG_9300.JPG');
+background-position: center;
+background-size: cover;
 color: var(--foreground);
 text-align: center;
 }
